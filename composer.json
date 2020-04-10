@@ -1,0 +1,38 @@
+{
+  "name": "xpressengine-plugin/xe_claim_blind",
+  "description": "This Package is Xpressengine Plugin - Claim Blind.",
+  "keywords": [
+    "xpressengine",
+    "plugin",
+    "claim blind"
+  ],
+  "license": "LGPL-3.0-or-later",
+  "version": "0.1.0",
+  "type": "xpressengine-plugin",
+  "support": {
+    "email": "developers@xpressengine.com"
+  },
+  "authors": [
+    {
+      "name": "XE Developers",
+      "email": "developers@xpressengine.com",
+      "homepage": "https://store.xehub.io/plugins/xe_claim_blind",
+      "role": "Developer"
+    }
+  ],
+  "extra": {
+    "xpressengine": {
+      "title": "Claim Blind",
+      "component": {}
+    }
+  },
+  "require": {
+    "xpressengine/xpressengine": "~3.0.9",
+    "xpressengine-plugin/comment": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xpressengine\\Plugins\\ClaimBlind\\": "src/"
+    }
+  }
+}
